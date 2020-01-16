@@ -16,19 +16,19 @@
         <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css' />
 
         <!-- Revolution Banner CSS -->
-        <link rel="stylesheet" href="css/fullwidth.css" type="text/css" />
-        <link rel="stylesheet" href="css/settings.css" type="text/css" />
+        <link rel="stylesheet" href="./css/fullwidth.css" type="text/css" />
+        <link rel="stylesheet" href="./css/settings.css" type="text/css" />
         
         <!-- Essential Stylesheets -->
-        <link rel="stylesheet" href="css/normalize.css" type="text/css" />
-        <link rel="stylesheet" href="css/main.css" type="text/css" />
-        <link rel="stylesheet" href="css/foundation.css" type="text/css" />
-        <link rel="stylesheet" href="css/jquery.bxslider.css" type="text/css" />
-        <link rel="stylesheet" href="css/mainStyles.css" type="text/css" />
-        <link rel="stylesheet" href="css/mediaqueries.css" type="text/css" />
+        <link rel="stylesheet" href="./css/normalize.css" type="text/css" />
+        <link rel="stylesheet" href="./css/main.css" type="text/css" />
+        <link rel="stylesheet" href="./css/foundation.css" type="text/css" />
+        <link rel="stylesheet" href="./css/jquery.bxslider.css" type="text/css" />
+        <link rel="stylesheet" href="./css/mainStyles.css" type="text/css" />
+        <link rel="stylesheet" href="./css/mediaqueries.css" type="text/css" />
 
         <!-- Modernizr -->
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="./js/vendor/modernizr-2.6.2.min.js"></script>
 
         <!-- GOOGLE FONTS -->
 
@@ -36,20 +36,9 @@
     </head>
     <body data-smooth-scrolling="1" id="homeActive">
        
-
-    
-
-    <!-- Header Section -->
-
     <?php include("./inc/topo.php") ?>
 
-    <!-- BANNER Section -->
-    
     <?php include("./inc/banner_home.php") ?>
-
-        
-        <!-- Welcome Section -->
-
 
         <div class="row services home_space ">
             <!-- Service 1 -->
@@ -58,11 +47,6 @@
                 <div class="titulo1">Somos um pool de três empresas do setor criativo,<span> que compartilham espaço, ideias e experiências para criar soluções integradas em comunicação, marketing, desenvolvimento digital e projetos relacionados a inovação e design.<br> A formação multidisciplinar das equipes do <strong>Coletivo do Porto</strong> está entre os diferenciais que levam ao desenvolvimento de trabalhos de excelência em diversos setores de atuação.<br> A interação em um mesmo ambiente traz simbiose e sincronismo entre as diferentes equipes e garante projetos realmente coletivos.</span></div>
                
             </div>
-
-           <!-- <div class="large-4 columns serviceHolder section_featured_texts animationStart">
-                <div class="titulo1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt. <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, commodi, odio, sed nostrum pariatur consequuntur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, commodi, odio, sed nostrum pariatur consequuntur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, commodi, odio, sed nostrum pariatur consequuntur. Cupiditate, commodi, odio, sed nostrum.</span></div>
-                
-            </div> -->
             
             <!-- Service 2 -->
             <div class="large-4 columns serviceHolder section_featured_texts animationStart">
@@ -77,16 +61,13 @@
             </div>
 
         </div>
-        <!-- Footer Top logos -->
         
         <?php include("./inc/rodape.php") ?>
-        
-        <!-- Foundation Scripts -->
 
         <script>
-        document.write('<script src=' +
-        ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
-        '.js><\/script>')
+            document.write('<script src=' +
+            ('__proto__' in {} ? './js/vendor/zepto' : './js/vendor/jquery') +
+            '.js><\/script>')
         </script>
 
         <script src="js/foundation/foundation.js"></script>
