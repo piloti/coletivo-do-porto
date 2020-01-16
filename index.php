@@ -82,7 +82,166 @@
         </div>
         <?php //include 'http://www.coletivodoporto.com.br/inc/topo.php'; ?>
 
-        <?php include 'http://www.coletivodoporto.com.br/inc/banner_home.php'; ?>
+        <!-- Future Slider Section -->
+        <div class="fullwidthbanner-container">
+                <div class="fullwidthbanner">
+                    <ul>
+                        <!-- THE FIRST SLIDE -->
+                        <li style="position:relative" data-transition="slideleft" data-slotamount="1" data-masterspeed="300" data-thumb="images/thumbs/thumb6.jpg">
+                                <img alt="" src="img/banner1.jpg" />
+
+                                <div class="caption large_text centralizarY"
+                                    data-x="center"
+                                    data-y="100"
+                                    data-speed="700"
+                                    data-start="1000"
+                                    data-easing="easeOutExpo"><img src="img/ico_coletivo.png"></div>
+
+                                <div class="caption large_text sfl"
+                                    data-x="center"
+                                    data-y="250"
+                                    data-speed="700"
+                                    data-start="1500"
+                                    data-easing="easeOutExpo">Soluções integradas <br>na indústria criativa
+                                </div>
+                        </li>
+                        
+                        <!-- THE SECOND SLIDE -->
+                        <li style="position:relative"  data-transition="slideleft" data-slotamount="1" data-masterspeed="300" data-thumb="images/thumbs/thumb6.jpg">
+                                <img alt="" src="img/banner2.jpg" />
+
+                                <div class="caption large_text centralizarY"
+                                    data-x="-50"
+                                    data-y="120"
+                                    data-speed="700"
+                                    data-start="1000"
+                                    data-easing="easeOutExpo"><img src="img/ico_interatividade.png"></div>
+
+                                <div class="caption large_text sfl"
+                                    data-x="-50"
+                                    data-y="250"
+                                    data-speed="700"
+                                    data-start="1500"
+                                    data-easing="easeOutExpo">Interatividade
+                                </div>
+
+                                <div class="caption large_text contactText sfl"
+                                    data-x="-50"
+                                    data-y="350"
+                                    data-speed="700"
+                                    data-start="1500"
+                                    data-easing="easeOutExpo">Foco no cliente, onde quer que ele esteja! Falamos a língua dele,<br> seja nas redes sociais, no celular, na terra ou no mar...
+                                </div>
+
+
+                        </li>
+
+                        <!-- THE SECOND SLIDE -->
+                        <li style="position:relative"  data-transition="slideleft" data-slotamount="1" data-masterspeed="300" data-thumb="images/thumbs/thumb6.jpg">
+                                <img alt="" src="img/banner2.jpg" />
+
+                                <div class="caption large_text centralizarY"
+                                    data-x="-50"
+                                    data-y="120"
+                                    data-speed="700"
+                                    data-start="1000"
+                                    data-easing="easeOutExpo"><img src="img/ico_comunicacao.png"></div>
+
+                                <div class="caption large_text sfl"
+                                    data-x="-50"
+                                    data-y="250"
+                                    data-speed="700"
+                                    data-start="1500"
+                                    data-easing="easeOutExpo">Comunicação
+                                </div>
+
+                                <div class="caption large_text contactText sfl"
+                                    data-x="-50"
+                                    data-y="350"
+                                    data-speed="700"
+                                    data-start="1500"
+                                    data-easing="easeOutExpo">Ajuda para falar com seu público,com a imprensa, com o mundo? Deixa com a gente, vamos te guiar!
+                                </div>
+
+
+                        </li>
+
+                        <!-- THE FIRST SLIDE -->
+                        <li style="position:relative" data-transition="slideleft" data-slotamount="1" data-masterspeed="300" data-thumb="images/thumbs/thumb6.jpg">
+                                <img alt="" src="img/banner3.jpg" />
+
+                                
+                                <div class="caption large_text centralizarY"
+                                    data-x="-50"
+                                    data-y="120"
+                                    data-speed="700"
+                                    data-start="1000"
+                                    data-easing="easeOutExpo"><img src="img/ico_banner3.png"></div>
+
+                                <div class="caption large_text sfl"
+                                    data-x="-50"
+                                    data-y="250"
+                                    data-speed="700"
+                                    data-start="1500"
+                                    data-easing="easeOutExpo"><div class="banner_centralizado">Marketing<span><br>Planejamento de marketing, gestão de marca, relacionamento...
+    Nós damos o Norte!</span>
+                                </div>
+
+
+
+                            
+
+                        </li>
+
+                        <!-- THE FIRST SLIDE -->
+                        <li style="position:relative"  data-transition="slideleft" data-slotamount="1" data-masterspeed="300" data-thumb="images/thumbs/thumb6.jpg">
+                                <img alt="" src="img/banner4.jpg" />
+
+                                <div class="caption large_text centralizarY"
+                                    data-x="-50"
+                                    data-y="120"
+                                    data-speed="700"
+                                    data-start="1000"
+                                    data-easing="easeOutExpo"><img src="img/ico_banner4.png"></div>
+
+                                <div class="caption large_text sfl"
+                                    data-x="-50"
+                                    data-y="250"
+                                    data-speed="700"
+                                    data-start="1500"
+                                    data-easing="easeOutExpo"><div class="banner_centralizado">Design related<br><span>Tem um projeto ligado a Design e Inovação?
+                            Somos o radar que você precisa!</span></div></div>
+                        </li>
+
+                        <!-- THE FIRST SLIDE -->
+                        <li style="position:relative"  data-transition="slideleft" data-slotamount="1" data-masterspeed="300" data-thumb="images/thumbs/thumb6.jpg">
+                                <img alt="" src="img/banner5.jpg" />
+
+                                <div class="caption large_text centralizarY"
+                                    data-x="-50"
+                                    data-y="120"
+                                    data-speed="700"
+                                    data-start="1000"
+                                    data-easing="easeOutExpo"><img src="img/ico_banner2.png"></div>
+
+                                <div class="caption large_text sfl"
+                                    data-x="-50"
+                                    data-y="250"
+                                    data-speed="700"
+                                    data-start="1500"
+                                    data-easing="easeOutExpo"><div class="banner_centralizado">Digital<br><span>Nós temos as ferramentas para você navegar por bits e bytes 
+                                com tranquilidade e segurança.
+                                </span></div></div>
+                            </li>
+
+                        
+
+                    </ul>
+                    
+                    <div class=".tp-bullets"></div>
+                </div>
+            </div>
+        <?php //include 'http://www.coletivodoporto.com.br/inc/banner_home.php'; ?>
 
         <div class="row services home_space ">
             <!-- Service 1 -->
@@ -106,7 +265,100 @@
 
         </div>
         
-        <?php include 'http://www.coletivodoporto.com.br/inc/rodape.php'; ?>
+            <!-- ROLAGEM SUAVE -->
+
+            <script type="text/javascript" src="js/smooth.pack.js"></script>
+
+    <div class="footerTop_logos">
+                <div class="row Container">
+                    <p class="coletivo">Nós somos o Coletivo do Porto</p>
+
+
+                <ul class="logoscoletivos">
+                    <li><a href="http://www.piloti.com.br" target="_blank"><img src="img/piloti.jpg" alt=""></a></li>
+                    <li><a href="http://www.fguarana.com.br" target="_blank"><img src="img/guarana.jpg" alt=""></a></li>
+                    <li><a href="http://www.ampliativo.com.br" target="_blank"><img src="img/ampliativo.jpg" alt=""></a></li>
+                    <li class="ultimocoletivo"><a href="http://www.top5rio.com.br" target="_blank"><img src="img/top5riologo.png" alt=""></a></li>
+                    <!-- <li ><a href="http://www.econecta.com.br" target="_blank"><img src="img/econecta.jpg" alt=""></a></li> -->
+                </ul>
+
+
+
+
+    <!-- 
+                    <div class="lg_footer lg_primeira"><a href="http://www.piloti.com.br" target="_blank"><img src="img/piloti.jpg"></a> </div>
+                    <div class="lg_footer"><a href="http://www.fguarana.com.br/" target="_blank"><img src=""></a></div>
+                    <div class="lg_footer"><a href="http://www.filtramidias.com.br" target="_blank"><img src=""></a></div>
+                    <div class="lg_footer"><a href="http://www.ampliativo.com.br" target="_blank"><img src="img/ampliativo.jpg"></a></div>
+                    <div class="lg_footer lg_ultima"><a href="http://www.econecta.com.br/" target="_blank"><img src="img/econecta.jpg"></a></div> -->
+
+
+
+    <!--                 <div class="piloti"><a href="http://www.piloti.com.br" target="_blank"><img src="img/piloti.jpg"></a> </div>
+                    <div class="logos_footer"><a href="http://www.fguarana.com.br/" target="_blank"><img src="img/guarana.jpg"></a></div>
+                    <div class="logos_footer"><a href="http://www.filtramidias.com.br" target="_blank"><img src="img/filtra.jpg"></a></div>
+                    <div class="logos_footer"><a href="http://www.ampliativo.com.br" target="_blank"><img src="img/ampliativo.jpg"></a></div>
+                    <div class="ultimo_logo"><a href="http://www.econecta.com.br/" target="_blank"><img src="img/econecta.jpg"></a></div> -->
+
+                </div>
+    </div>
+            <!-- Footer Top Section -->
+            <div class="footerTop">
+                <div class="row Container">
+                    <div id="logo_rodape"><a href="index.php"></a></div>
+
+                    
+                    <div class="rodape-infos">
+                        <div id="endereco">
+                            <p>Avenida Venezuela, 131 / grupo 411 Porto Maravilha, Rio de Janeiro, RJ,  <br>
+        contato<span>@</span>coletivodoporto.com.br   /   <span>+55 21 3062 6095<!-- 2516 5248 -->  </span></p>
+                        </div>
+
+                        <div id="redes">
+                            <div id="linkedin"><a href="#"></a></div>
+                            <div id="like"><div id="fb-root"></div>
+                                <script>(function(d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0];
+                                if (d.getElementById(id)) return;
+                                js = d.createElement(s); js.id = id;
+                                js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=446049445442273";
+                                fjs.parentNode.insertBefore(js, fjs);
+                                }(document, 'script', 'facebook-jssdk'));</script>
+                                <div class="fb-like" data-href="http://www.facebook.com/coletivodoporto" data-send="true" data-width="380" data-show-faces="false" data-font="arial" data-colorscheme="light"></div>
+
+
+                                
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="selo_verde"><p>SELO VERDE</p><br><a href="http://www.fazendamundonovo.eco.br/" target="_blank"><img src="img/selo_verde.png"></a></div>
+
+                </div>
+            </div>
+
+            <!-- Footer Bottom Section -->
+            <div class="footerBott">
+                <div class="row">
+
+                    <div class="large-5 columns footerMenu">
+                        <ul id="footerNav">
+                            <li><a href="index.php">HOME</a></li>
+                            <li><a href="nos_somos.php">NÓS SOMOS</a></li>
+                            <li><a href="o_coletivo.php">O COLETIVO</a></li>
+                            <li><a href="do_porto.php">DO PORTO</a></li>
+                            <li><a href="contato.php">CONTATO</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="large-3 columns copyright">
+                    <p>Desenvolvido por  <a href="http://www.piloti.com.br">Piloti</a></p>
+                    </div>
+
+                </div>
+            </div>
+        <?php //include 'http://www.coletivodoporto.com.br/inc/rodape.php'; ?>
 
         <script>
             document.write('<script src=' +
