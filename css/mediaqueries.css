@@ -1,0 +1,182 @@
+/* --------- Desktop --------- */
+@media only screen and (min-width: 1200px) {
+
+	/*CONTEUDO*/
+
+	.clientsIntro h2{margin: 20px 0;}
+	.bx-wrapper .bx-controls-direction a {top:-15px !important;}
+	.teamContentSlider .bx-wrapper .bx-prev {left:7px ;}
+	.teamContentSlider .bx-wrapper .bx-next {left:33px;}
+	.masonryFilter li {margin: 5px 0px 5px 16px;}
+	.contato-primeiro{margin-left: 0}
+
+	/* Footer */
+
+	.logoscoletivos li {display: inline-block;margin: 30px 99px 10px 0;}
+	.logoscoletivos li.ultimocoletivo {display: inline-block;margin: 30px 0 10px 0;}
+	.logoscoletivos li a {border: none;}
+	#logo_rodape {margin-left: 0;}
+	#selo_verde {margin-right: 0}
+	.copyright{ }
+
+}
+
+/* --------- DE 980PX ATÉ 1199PX --------- */
+@media only screen and (max-width: 1199px) {
+
+	.serviceHolder .titulo1 {margin: 0px 0 25px 12px;}
+	.logoHolder{margin-left: 12px; float: left;width: auto;}
+	.nav-div{float: right !important;width: auto !important; margin-right: 12px;}
+	.margem_facebook{margin-left: -12px !important;}
+	.clientsIntro h2, .clientsIntro p{margin: 0 12px;}
+	.services {padding: 0 12px 30px 12px; margin-top: 20px;}
+	.recWorkCont .bx-wrapper .bx-controls-direction a {margin-top:9px;} 
+	.clientsIntro2 h2, .clientsIntro2 p{margin-left: 12px;}
+	.left {margin-left: 12px;}
+	.right {margin-right: 12px;}
+	.masonryFilter li {margin: 5px 0px 5px 32px;}
+	.formas-de-contato{margin-left: 12px !important;}
+	.masonryFilter li {
+margin: 5px 0px 5px -16px;}
+
+	/* Footer */
+
+	.logoscoletivos li {display: inline-block;margin: 30px 5% 0 0;}
+	.logoscoletivos li.ultimocoletivo {display: inline-block;margin:0;}
+	.logoscoletivos li a {border: none;}
+	#logo_rodape {margin-left: 12px;}
+	#selo_verde {margin-right: 12px;}
+	.copyright  {margin-right: 12px;}
+	#footerNav{margin-left: 12px;}
+}
+
+/* --------- iPad Vertical --------- */
+@media screen and (max-width: 979px) {
+	.serviceHolder .titulo1 {margin: 0px 0 25px 12px;}
+	.logoHolder{margin-left: 12px; float: left;width: auto;}
+	.nav-div{float: right !important;width: auto !important; margin-right: 12px;}
+	.margem_facebook{margin-left: -12px !important;}
+	.clientsIntro h2, .clientsIntro p{margin: 0 12px;}
+	.services {padding: 0 12px 30px 12px;}
+	.recWorkCont .bx-wrapper .bx-controls-direction a {margin-top:9px;} 
+	.clientsIntro2 h2, .clientsIntro2 p{margin-left: 12px;}
+	.left {margin-left: 12px;}
+	.right {margin-right: 12px;}
+	.masonryFilter li {margin: 5px 0px 5px 32px;}
+	.contato-primeiro {margin-left: 0 !important;}
+	.formas-de-contato{margin-left: 12px !important;}
+	.logoscoletivos{text-align: center;}
+
+	/* Footer */
+
+	.logoscoletivos li {display: inline-block;margin: 30px 6% 0 6%;}
+	.logoscoletivos li.ultimocoletivo {display: inline-block;margin:0;}
+	.logoscoletivos li a {border: none;}
+	#logo_rodape {margin-left: 12px;}
+	#selo_verde {margin-right: 12px;}
+	.copyright  {margin-right: 12px;}
+	#footerNav{margin-left: 12px;}
+	#redes {height: 39px;border-top: 1px solid #e3e2e2;float: left;margin: 12px 0 0 0;padding-top: 10px;}
+	#endereco {height: 39px;float: left;margin: 0 0 0 0;}
+	.rodape-infos{margin-left: 30%;}
+
+}
+
+
+/* --------- Mobile Phones --------- */
+@media screen and (max-width: 767px) {
+
+	.fullwidthbanner-container {
+		width: 100% !important;
+		padding: 0;
+		max-height: 509px !important;
+		overflow: hidden;
+		text-align: center !important;
+		margin-top: 153px;
+	.serviceHolder .titulo1 {margin: 25px 0 25px 12px;}
+	.logoHolder{margin-left: 12px; float: left;width: auto;}
+	.nav-div{float: right !important;width: auto !important; margin-right: 12px;}
+	.margem_facebook{margin-left: -12px !important;}
+	.clientsIntro h2, .clientsIntro p{margin: 0 12px;}
+	.services {padding: 0 12px 30px 12px;}
+	.recWorkCont .bx-wrapper .bx-controls-direction a {margin-top:9px;} 
+	.clientsIntro2 h2, .clientsIntro2 p{margin-left: 12px;}
+	.left {margin:0 12px; width: 96%;}
+	.right {margin:0 7px; width: 96%; float: left !important;}
+	.masonryFilter li {margin: 5px 0px 5px 32px; width: 40%;}
+	.formas-de-contato{margin-left: 12px !important;}
+	.logoscoletivos{text-align: center;}
+	.centralizado{margin-left: 0;}
+	.contato-primeiro{margin-left: 32px !important}
+	.rodape-infos{margin-left: 0;}
+
+	/* Footer */
+	
+	.coletivo{text-align: center;}
+	.logoscoletivos li {display: block; margin: 0;}
+	.logoscoletivos li.ultimocoletivo {display: inline-block;margin:0;}
+	.logoscoletivos li a {border: none;}
+	#logo_rodape {margin-left: 0;width: 100%;background-repeat: no-repeat;background-position:top center;margin-bottom: 40px;}
+	#selo_verde {margin-right: 0;width: 100%;margin-top: 60px;}
+	.copyright  {margin-right: 12px; width: auto !important;}
+	#footerNav{margin-left: 12px;}
+	.footerMenu{float: left !important; width: auto !important;}
+	#endereco {margin: 0; text-align: center; width: 100%;}
+	#redes {margin: 0; width: 100%;}
+	#linkedin {width: 100%;height: 25px;float: left;display: block;margin: 5px 5px 0 0;text-align: center;}
+	#linkedin a {width: 100%;height: 25px;display: block;background-image: url("../img/linkedin.png");background-position:top center;background-repeat: no-repeat;}
+	#linkedin a:hover{ background-position-y: -26px; background-position-x: center; width: 100%; }
+	#like {float: left;margin: 10px 0px;width: 100%;text-align: center;}
+	.rodape-infos{margin-left: 0;}
+}
+
+
+/* --------- iPhone Vertical  --------- */
+@media screen and (max-width: 479px) {
+	.serviceHolder .titulo1 {margin: 25px 0 25px 12px;}
+	.logoHolder{margin-left: 12px; float: left;width: auto;}
+	.nav-div{float: right !important;width: auto !important; margin-right: 12px;}
+	.margem_facebook{margin-left: -12px !important;}
+	.clientsIntro h2, .clientsIntro p{margin: 0 12px;}
+	.services {padding: 0 12px 30px 12px;}
+	.recWorkCont .bx-wrapper .bx-controls-direction a {margin-top:9px;} 
+	.clientsIntro2 h2, .clientsIntro2 p{margin-left: 12px;}
+	.left {margin:0 12px; width: 96%;}
+	.right {margin:0 7px; width: 96%; float: left !important;}
+	.masonryFilter li {margin: 5px 0px 5px 32px; width: 40%;}
+	.formas-de-contato{margin-left: 12px !important;}
+	.logoscoletivos{text-align: center;}
+	.centralizado{margin-left: 0;}
+	.contato-primeiro{margin-left: 32px !important}
+
+
+	/* Footer */
+	
+	.coletivo{text-align: center;}
+	.logoscoletivos li {display: block; margin: 0;}
+	.logoscoletivos li.ultimocoletivo {display: inline-block;margin:0;}
+	.logoscoletivos li a {border: none;}
+	#logo_rodape {margin-left: 0;width: 100%;background-repeat: no-repeat;background-position-x: center;margin-bottom: 40px;}
+	#selo_verde {margin-right: 0;width: 100%;margin-top: 60px;}
+	.copyright  {margin-right: 32%; width: auto !important;}
+	#footerNav{margin-left: 12px;}
+	.footerMenu{float: left !important; width: auto !important;}
+	#endereco {margin: 0; text-align: center; width: 100%;}
+	#redes {margin-top: 32px; width: 100%;}
+	#linkedin {width: 100%;height: 25px;float: left;display: block;margin: 5px 5px 0 0;text-align: center;}
+	#linkedin a {width: 100%;height: 25px;display: block;background-image: url("../img/linkedin.png");background-position-x: center;background-repeat: no-repeat;}
+	#linkedin a:hover{ background-position: center -26px; width: 100%; }
+	#like {float: left;margin: 10px 0px;width: 100%;text-align: center;}
+	.rodape-infos{margin-left: 0;}
+}
+
+
+/*MENU ALINHADO SOMENTE IPAD LANDSCAPE*/
+
+@media only screen and (max-device-width : 1024px) and (orientation : landscape) {
+	.logoscoletivos li {display: inline-block;margin: 30px 74px 0 0;}
+	.tp-caption.large_text{font-size: 12px !important}
+
+}
+
+
