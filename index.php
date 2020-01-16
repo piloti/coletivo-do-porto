@@ -41,11 +41,11 @@
 
     <!-- Header Section -->
 
-    <?php include("inc/topo.php") ?>
+    <?php include("./inc/topo.php") ?>
 
     <!-- BANNER Section -->
     
-    <?php include("inc/banner_home.php") ?>
+    <?php include("./inc/banner_home.php") ?>
 
         
         <!-- Welcome Section -->
@@ -79,7 +79,7 @@
         </div>
         <!-- Footer Top logos -->
         
-        <?php include("inc/rodape.php") ?>
+        <?php include("./inc/rodape.php") ?>
         
         <!-- Foundation Scripts -->
 
