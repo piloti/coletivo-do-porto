@@ -36,9 +36,9 @@
     </head>
     <body data-smooth-scrolling="1" id="homeActive">
        
-        <?php include("http://www.coletivodoporto.com.br/inc/topo.php") ?>
+        <?php require("http://www.coletivodoporto.com.br/inc/topo.php") ?>
 
-        <?php include("http://www.coletivodoporto.com.br//inc/banner_home.php") ?>
+        <?php include("http://www.coletivodoporto.com.br/inc/banner_home.php") ?>
 
         <div class="row services home_space ">
             <!-- Service 1 -->
