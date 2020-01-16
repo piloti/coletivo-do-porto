@@ -44,7 +44,7 @@
             <!-- Service 1 -->
 
             <div class="large-4 columns serviceHolder section_featured_texts animationStart">
-                <div class="titulo1">Somos um pool de três empresas do setor criativo,<span> que compartilham espaço, ideias e experiências para criar soluções integradas em comunicação, marketing, desenvolvimento digital e projetos relacionados a inovação e design.<br> A formação multidisciplinar das equipes do <strong>Coletivo do Porto</strong> está entre os diferenciais que levam ao desenvolvimento de trabalhos de excelência em diversos setores de atuação.<br> A interação em um mesmo ambiente traz simbiose e sincronismo entre as diferentes equipes e garante projetos realmente coletivos.</span></div>
+                <div class="titulo1">Apenas teste Somos um pool de três empresas do setor criativo,<span> que compartilham espaço, ideias e experiências para criar soluções integradas em comunicação, marketing, desenvolvimento digital e projetos relacionados a inovação e design.<br> A formação multidisciplinar das equipes do <strong>Coletivo do Porto</strong> está entre os diferenciais que levam ao desenvolvimento de trabalhos de excelência em diversos setores de atuação.<br> A interação em um mesmo ambiente traz simbiose e sincronismo entre as diferentes equipes e garante projetos realmente coletivos.</span></div>
                
             </div>
             
