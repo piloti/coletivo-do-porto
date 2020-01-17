@@ -48,8 +48,10 @@
 	<?php include("inc/topo.php") ?>
 
 	<!-- BANNER Section -->
-	<div id="googleMap">
+	<div>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.4621329653546!2d-43.187763485034615!3d-22.89631938501713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f45219e496d%3A0x19ab9a8ef4491203!2sAv.%20Venezuela%2C%20131%20-%20Sa%C3%BAde%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020081-311!5e0!3m2!1spt-BR!2sbr!4v1579264857569!5m2!1spt-BR!2sbr" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 	</div>
+	<!-- <div id="googleMap"></div> -->
 
 		
 		<!-- Welcome Section -->
