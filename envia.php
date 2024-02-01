@@ -1,7 +1,10 @@
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-require_once('./includes/phpmailer.class.php');
-require_once('./includes/class.smtp.php');
+require './includes/PHPMailer-6.0.0/src/Exception.php';
+require './includes/PHPMailer-6.0.0/src/PHPMailer.php';
+require './includes/PHPMailer-6.0.0/src/SMTP.php';
 
 if($_POST){
 	$nome = $_POST['nome'];
@@ -25,19 +28,21 @@ if($_POST){
 
 						// configurando o serviço de smtp
 						$Email->SMTPAuth = true;
-						$Email->Host = "ssl://smtp.gmail.com";
+						$Email->Host = "smtp.gmail.com";
 						$Email->Port = "465";
-						$Email->Username = "noreply@coletivodoporto.com.br";
-						$Email->Password = "pil@ti0808";
+						$Email->Username = "noreply@piloti.com.br";
+						$Email->Password = "Pil@ti0708!";
+						$Email->SMTPSecure = 'ssl';
+
 
 						// ativa o envio de e-mails em HTML
 						$Email->IsHTML(true);
 
 						// setando remetente do e-mail
-						$Email->SetFrom($email, $nome);
+						$Email->SetFrom('noreply@piloti.com.br', 'Contato piloti');
 
 						// setando destinatário do e-mail
-						$Email->AddAddress("contato@coletivodoporto.com.br");
+						$Email->AddAddress("contato@piloti.com.br");
 
 						// setando assunto do e-mail
 						$Email->Subject = "Contato via site: ".$assunto;
